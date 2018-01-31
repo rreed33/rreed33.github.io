@@ -13,11 +13,33 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		 <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-	    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
-	    <!-- Material Design icon font -->
-	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="lib/d3.v3.min.js"></script>
 	</head>
+
+	<style>
+
+	path.link {
+	  fill: none;
+	  stroke: #666;
+	  stroke-width: 1.5px;
+	}
+
+	circle {
+	  fill: #ccc;
+	  stroke: #fff;
+	  stroke: black;
+	  stroke-width: 1.5px;
+	}
+
+
+	text {
+	  fill: #000;
+	  font: 10px sans-serif;
+	  pointer-events: none;
+	}
+
+	</style>
+
 	<body>
 
 
@@ -30,18 +52,13 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2><b>Machine Learning</b></h2>
+									<h2><b>Data Visualizations</b></h2>
 								</header>
 								<p>
-								Some projects/papers that I've worked on in classes and for personal projects.	
+								Viz 1
 								</p>
-					
+								
 
-								<section>
-									<div class="row">
-										
-									</div>
-								</section>
 							</article>
 
 
@@ -63,6 +80,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="d3scripts/nodes.js"></script>
 
 	</body>
 </html>
