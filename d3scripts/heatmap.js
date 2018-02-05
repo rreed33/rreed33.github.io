@@ -1,5 +1,5 @@
         var margin = {top: 100, right: 200, bottom: 30, left: 100}
-        var w = 960 - margin.left - margin.right
+        var w = 800 - margin.left - margin.right
         var h = 500 - margin.top - margin.bottom;
 
         var parseMonth = d3.time.format("%m").parse
@@ -62,7 +62,7 @@
         //console.log(ZipCodes);
 
 
-        var select = d3.select("body")
+        var select = d3.select("#heatmap")
             .append("select")
             .attr("class","select")
             .on("change",function() {
